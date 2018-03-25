@@ -9,7 +9,6 @@
 
     <!--启动注解识别-->
     <context:annotation-config/>
-
     <context:component-scan base-package="com.changyu_jiang.coolmall.controller">
         <context:include-filter type="annotation"
                                 expression="org.springframework.stereotype.Controller"/>
